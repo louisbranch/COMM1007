@@ -10,6 +10,10 @@ ul li {
   margin: 30px 0;
 }
 
+#diabetes-ratio > div {
+  text-align: center;
+}
+
 #timer {
   position: fixed;
   bottom: 10px;

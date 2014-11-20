@@ -27,6 +27,15 @@
 
   }
 
+  document.getElementById("diabetes-ratio")
+    .addEventListener("impress:stepenter", function(){
+      window.setTimeout(function () {
+        var img = document.getElementById("patient");
+        img.src = "patient.png";
+      }, 1000);
+  });
+
+  window.impress().init();
   timer();
 
 }(window, document));
