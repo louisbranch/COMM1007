@@ -1,5 +1,13 @@
+ul li {
+  margin: 10px 0 25px;
+}
+
 .hidden {
   display: none !important;
+}
+
+.slide q {
+  margin: 30px 0;
 }
 
 #timer {
