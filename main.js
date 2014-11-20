@@ -33,7 +33,19 @@
         var img = document.getElementById("patient");
         img.src = "patient.png";
       }, 1000);
+    });
+
+  var youtube = document.getElementById("youtube");
+  var sugar = document.getElementById("sugar-process");
+
+  sugar.addEventListener("impress:stepenter", function(){
+    youtube.src += "&autoplay=1";
   });
+
+  sugar.addEventListener("impress:stepleave", function(){
+    youtube.src = youtube.src.replace(/\&autoplay=1/g, "");
+  });
+
 
   window.impress().init();
   timer();
