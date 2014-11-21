@@ -32,7 +32,7 @@
       window.setTimeout(function () {
         var img = document.getElementById("patient");
         img.src = "patient.png";
-      }, 1000);
+      }, 4000);
     });
 
   var youtube = document.getElementById("youtube");
