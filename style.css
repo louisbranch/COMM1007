@@ -7,6 +7,10 @@ h1 {
   line-height: 72px;
 }
 
+.slide ul {
+  text-align: left;
+}
+
 ul li {
   margin: 10px 0 25px;
 }
