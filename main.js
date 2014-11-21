@@ -31,7 +31,7 @@
     .addEventListener("impress:stepenter", function(){
       window.setTimeout(function () {
         var img = document.getElementById("patient");
-        img.src = "patient.png";
+        img.src = "imgs/patient.png";
       }, 4000);
     });
 
