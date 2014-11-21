@@ -47,6 +47,10 @@
   });
 
 
+  document.getElementById("thank-you").addEventListener("impress:stepenter", function(){
+    document.querySelector("#thank-you iframe").src += "&autoplay=1";
+  });
+
   window.impress().init();
   timer();
 
